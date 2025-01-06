@@ -1,18 +1,64 @@
-<!-- ![Thumbnail]() -->
+# Netflix Clone - MERN Stack
 
-![Netflix Logo](https://github.com/kunaal438/netflix-clone-2.0/blob/master/public/img/logo.png?raw=true)
+A full MERN stack application replicating major features of Netflix, offering a seamless user experience, responsive design, and robust functionality. This project demonstrates the essential components of a video streaming platform, including user authentication, content browsing, and playback.
 
-Netflix Clone, we all use netflix in our day to day life. And if you are just starting with web development. This project can be a good practice project for you. This netflix clone is a dynamic site and has everything you need for fullstack development practice. It runs on a Node.js server. It uses TMDB API for all data.
+---
 
-### Features
+## Features
 
-1. Looks similar to Netflix.
-2. Dynamic site run on Node.js server.
-3. All data is coming from TMDB API.
-4. Dedicated Dynamic Movies Info page.
-5. Has movie trailers, and recommendations.
-6. Has smooth card slider effect.
+- **User Authentication:** Sign up, login, and secure user sessions.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Content Browsing:** Dynamic browsing and search functionality for movies and TV shows.
+- **Playback:** Stream video content with a Netflix-like interface.
+- **Admin Panel:** Manage users, content, and platform settings.
 
-You can check out its [coding tutorial](https://youtu.be/FoD33gwhu00).
+---
 
-![Thumbnail](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d2db0bvcss75exc5es3d.png)
+## Technologies Used
+
+- **Frontend:** React, Redux, CSS3, Bootstrap/Material-UI
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JSON Web Tokens (JWT)
+- **Cloud Storage:** (e.g., AWS S3 for media storage)
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/netflix-clone.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd netflix-clone
+   ```
+3. Install dependencies for both frontend and backend:
+   ```bash
+   cd client && npm install
+   cd ../server && npm install
+   ```
+4. Set up environment variables:
+   - Create a `.env` file in the `server` directory.
+   - Add the following variables:
+     ```env
+     MONGO_URI=your_mongo_database_uri
+     JWT_SECRET=your_jwt_secret
+     PORT=your_preferred_port
+     ```
+5. Run the development servers:
+   - Start the backend server:
+     ```bash
+     cd server && npm run dev
+     ```
+   - Start the frontend server:
+     ```bash
+     cd client && npm start
+     ```
+6. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+---
